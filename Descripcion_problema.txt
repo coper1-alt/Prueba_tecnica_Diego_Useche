@@ -1,0 +1,7 @@
+Durante el análisis detecté que el archivo CSV provisto no coincide con el formato que se indica en el PDF de la prueba: faltaban las columnas Ciudad y gasto_por_venta. Para no detener el avance, planteé un escenario de trabajo (documentado en el repositorio) en el que esas columnas son recreadas y validadas para que los requerimientos del PDF puedan cumplirse. En concreto:
+
+He incluido un documento con los supuestos y la metodología que utilicé para estimar las columnas faltantes.
+
+En el repositorio encontrarás todos la información al respecto.
+
+También añadí ejemplos y tests básicos para que puedas revisar cómo se llegó a los resultados y evaluar si el enfoque se ajusta a lo esperado.
